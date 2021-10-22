@@ -1,0 +1,420 @@
+*{ /** This * stands for "select all" */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Alegreya Sans";
+    
+}
+
+                                        /* navbar */
+.nav_bar{
+    width: 100%;
+    height: 15%;   
+    background-color:white;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    color: ivory;
+
+
+
+}
+.nav_bar ul{
+    list-style-type: none;   
+    color: ivory;
+      
+
+    
+}
+.nav_bar ul li a{
+    color:#816c48;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-weight: 100px;
+}
+.navVERTICAL{
+    display: block;
+    width: 60px;
+    overflow: hidden;
+}
+.optionsbar{
+    width: 50%;
+    padding: 2rem ;
+    margin-bottom: 1rem;
+    margin-right: 4rem;
+    display: inline-flex;
+    align-items: left;
+    justify-content: space-between;
+    color: #fff;
+    text-align: center;
+}
+.main_header{ 
+    width: 1263px;
+    height: 750px;
+    background-color: rgb(204, 194, 182);
+
+}
+.main_header.img{
+    width: 1263px;
+    height: 750px;
+    
+}
+/* .WelcomeTXT{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    font-family: algeria sans;
+    font-size: 30px;
+
+} */
+ 
+
+
+                                                /* home- main */
+
+
+
+.first_container{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+.img1_container{
+    margin:2.5rem ;
+    margin-left: 1.5rem;
+    width: 29rem;
+    height: 29rem;
+
+
+
+}
+.text1_container{
+    width: 50%;
+    height: 50%;
+    margin-top: 8rem;
+    font-family: algeria sans;
+    font-size: 17px;
+}
+.text1_container h2{
+    margin-bottom: 2rem;
+}
+.C1List{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    
+}
+
+
+
+
+
+
+.second_container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(235, 235, 236);
+    display: flex;
+    flex-flow: row;
+    /* justify-content: space-between; */
+
+}
+.text2_container{
+    width: 45%;
+    height: 45%;
+    margin-top: 8rem;
+    margin-left: 2.5rem;
+    font-family: algeria sans;
+    font-size: 18px;
+}
+.img2_container{
+    margin:2.5rem ;
+    margin-right: 2rem;
+    width: 25rem;
+    height: 25rem;
+
+}
+.text2_container h2{
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+.third_container{
+    width: 100%;
+    height: 120%;
+    background-color: rgb(255, 255, 255);
+   
+}
+.textUPC3{
+   
+   padding: 4rem;
+    text-align: center;
+    font-family: algeria sans;
+    font-size: 18px;
+   
+}
+.bread_img {
+    width: 21rem;
+    height: 18rem;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.img_container3{
+    margin:2rem ;
+    margin-right: 2rem;
+    /* width: 25rem;
+    height: 25rem; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.third_container .img_container{
+    margin-left: 2rem;
+} 
+.c3txt{
+    
+    padding: 1rem;
+    text-align: center;
+    font-family: algeria sans;
+    font-size: 18px;
+}
+.c3txt h3{
+    padding-bottom: 1rem;
+}
+
+
+
+
+
+.fourth_container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(247, 246, 245);
+    display: flex;
+    flex-flow: row;
+}
+.text4_container{
+    padding-top: 4rem;
+    margin: 3rem;
+
+
+}
+.text4_container h2{
+    padding-bottom: 2rem;
+}
+.text4_container h4{
+    margin-top: 2rem;
+}
+.C4List{
+    padding-top: 2rem;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+
+}
+
+
+
+
+
+
+                                            /* footer */
+
+.first_footer{
+    width: 100%;
+    height: 100%;
+    background-color:#403d38;
+    display: inline-flex;
+    align-items: center;
+
+}
+.partition{
+    width: 25%;
+    height: 60%;
+    margin: 3rem;
+    /* background-color: hotpink; */
+ 
+}
+.partition h3{
+    color: ivory;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: algeria sans;
+    font-size: 18px;
+}
+.partition p{
+    color: gray;
+    font-family: algeria sans;
+    font-size: 18px;
+}
+.footerList{
+    list-style-type: none;
+    color: gray;
+
+
+}
+.HLINE{
+    width: 200PX;
+    height: 1PX;
+    padding-left: 5PX;
+    background-color: rgb(97, 93, 93);
+}
+
+
+
+
+
+
+
+.second_footer{
+    width: 100%;
+    height:55%;
+    background-color:#353330;
+}
+.centeredFooter{
+    width: 40%;
+    height: 80%;
+    margin: auto;
+    padding-top: 4rem;
+    /* background-color: blanchedalmond; */
+    position: relative;
+
+}
+.footerBimg{
+   
+    position: absolute;
+    bottom: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.paragraph{
+    color:gray;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.social{
+    width: 300px;
+    height: 60px;
+    /* background-color: honeydew; */
+    position: absolute;
+    bottom: 15px;
+    left: 60%;
+    transform: translateX(-50%);
+    display: inline-flex;
+    align-items: left;
+
+}
+.icon{
+    
+    width: 40px;
+    height: 40px;
+    background-color:#403d38;
+    margin-right: 0.5rem;
+    padding-left:0.5rem ;
+   
+    border-radius: 50%;
+    position: relative;
+    
+}
+
+.smallImgIcon{
+                        /* I DIDN'T FIND CIRCULAR ICONS */
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-right: 1rem;
+}
+
+
+
+
+
+
+
+
+
+                                                    /* html About PAGE */
+.main_headerABOUT{
+    width: 100%;
+    height: 40%;
+    background-color: rgb(204, 194, 182);
+    Padding-top: 130PX;
+    text-align: center;
+    color: white;
+    font-family: algeria sans;
+    /* font-size: 20px; */
+    
+}
+.main_headerABOUT.h1{
+    text-align: center;
+    /* padding-top: 3rem; */
+    /* margin-bottom: 2rem; */
+    font-size: 20px;
+    margin-bottom: 10px;
+
+
+}
+.main_headerABOUT.p{
+    text-align: center;
+    /* margin-bottom: 2rem; */
+    font-size: 18px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+                                        /* OUR OFFER HTML */
+.main_headerABOUT{
+    width: 100%;
+    height: 40%;
+    background-color: rgb(204, 194, 182);
+    Padding-top: 130PX;
+    text-align: center;
+    color: white;
+    font-family: algeria sans;
+    /* font-size: 20px; */
+    
+}
+.main_headerABOUT.h1{
+    text-align: center;
+    /* padding-top: 3rem; */
+    /* margin-bottom: 2rem; */
+    font-size: 20px;
+    margin-bottom: 10px;
+
+
+}
+.main_headerABOUT.p{
+    text-align: center;
+    /* margin-bottom: 2rem; */
+    font-size: 18px; 
+}

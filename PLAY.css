@@ -1,0 +1,95 @@
+.section1H{
+    width: 100%;
+    height: 800px;
+    /* background-image: url(drew-coffman-1872.jpg); */
+    background-color: rgba(0,0,0,0.4 );
+    background-position: center;
+    position: relative;
+    
+}
+.section1H img{
+width: 100%;
+height: 150 px;
+
+}
+.ovelay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    background-color: #9c494966;
+    
+}
+.welcometxt{
+
+    text-align: center;
+    position: absolute;
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 300PX;
+    background-color: #353330;
+  
+
+}
+.footerlink{
+    width: 300px;
+    height: 300px;
+    background-color: #34205c;
+    
+}
+.footerlink img{
+    margin: auto;
+    
+   
+}
+
+.links{
+    width:200px ;
+    height: 50px ;
+
+    position: relative;
+    overflow: hidden;
+
+}
+.FBLink{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+
+
+}
+.GPLink{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(100, 22, 22);
+    position: absolute;
+
+
+}
+.inLink{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(240, 20, 20);
+    position: absolute;
+
+
+
+}
+.TWLink{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(25, 139, 63);
+    position: absolute;
+
+
+
+}
